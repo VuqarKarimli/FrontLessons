@@ -1,0 +1,39 @@
+.text1 {
+    text-align: center;
+}
+.picture1 {
+    width: 1300px; height: 350px;
+}
+.text2 {
+    text-align: center;
+    margin: 40px;
+}
+.facebook {
+    background-color: #39579C;
+    border-color: #39579C;
+    color: white;
+}
+.twitter {
+    background-color: #07B3F3;
+    border-color: #07B3F3;
+    color: white
+}
+.linkedin {
+    background-color: #0075B5;
+    border-color: #0075B5;
+    color: white
+}
+.reddit {
+    background-color: #FF4500;
+    border-color: #FF4500;
+    color: white
+}
+.button1 {
+    text-align: center;
+}
+.line1 {
+    margin-right: 33px;
+}
+.line2 {
+    margin-right: 33px;
+}
