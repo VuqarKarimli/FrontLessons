@@ -1,0 +1,45 @@
+.div1 img {
+    width: 100%;
+    height: 600px;
+}
+.div1 {
+    display: inline-block;
+    width: 35%;
+    height: 600px;
+}
+.div2 {
+    display: inline-block;
+    width: 55%;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 4rem;
+}
+.div2 .p1 {
+    text-transform: uppercase;
+}
+.div2 .head1 {
+    margin-bottom: 3rem;
+}
+.div3 {
+    display: inline-block;
+    width: 9%;
+    height: 100px;
+    vertical-align: top;
+}
+.div3 i {
+    border-width: 2px;
+    border-style:solid;
+    border-color: blue;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    color: blue;
+    font-size: 1.3rem;
+}
+.div4 {
+    display: inline-block;
+    width: 40%;
+    height: 150px;
+}
+.div4 p {
+    color: #b6b6b6;
+}
