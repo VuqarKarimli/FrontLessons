@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.sctn {
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sctn .div1 {
+    width: 40%;
+    margin-top: 3rem;
+}
+.sctn .div2{
+    width: 50%;
+    margin-top: 3rem;
+    height: 300px;
+}
+.sctn .div2 .box {
+    display: flex;
+    justify-content: space-evenly;
+    height: 85px;
+    color: #20484F;
+}
+.sctn .div1 h4 {
+    margin-bottom: 1.5rem;
+    color: #531ee6;
+}
+.sctn .div1 h1 {
+    margin-bottom: 10rem;
+    font-size: 2.5rem;
+}
+.sctn .div1 button {
+    color: #C4CFD1;
+    background-color: #20484F;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 0rem;
+}
+.sctn .div2 .box h1 {
+    font-size: 3.5rem;
+    font-family: initial;
+}
+.sctn .div2 .box h4 {
+    margin: 0.7rem 0rem 0.4rem 0rem;
+}
+hr {
+    margin-left: 8.7rem;
+    margin-bottom: 2rem;
+    background-color: #EFF2F2;
+    height: 0.1rem;
+    border: 0rem;
+}
