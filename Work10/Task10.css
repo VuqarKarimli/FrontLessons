@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.sctn1 {
+    color: white;
+    margin: auto;
+    width: 80%;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+    font-family: cursive;
+}
+.sctn2 {
+    margin: auto;
+    width: 84%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sctn2 .box {
+    width: 22%;
+    height: 70px;
+    color: blue;
+}
+.sctn2 .box1 {
+    width: 22%;
+    color: #A0B2B5
+}
+.sctn2 .box i {
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background-color: #DCF2ED;
+}
+.sctn2 .box1 h3 {
+    margin-bottom: 0.7rem;
+    color: white;
+}
