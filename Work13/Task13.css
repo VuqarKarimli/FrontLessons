@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+.powerfully .left ,.right {
+    width: 45%;
+    height: 300px;
+    margin-top: 7rem;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.powerfully .right .box {
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+i {
+    background-color: #DCF2ED;
+    color: #20484F;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+button {
+    background-color: #20484F;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1.5rem;
+    border: 0rem;
+    color: white;
+}
+h3 {
+    margin-bottom: 0.5rem;
+}
