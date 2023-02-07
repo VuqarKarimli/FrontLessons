@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 60%;
+}
+.perfect {
+    height: 100vh;
+    background-color: #202020;
+}
+.d-flex {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.perfect .d-flex .box1 {
+    width: 48%;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.perfect .d-flex .box2 {
+    width: 22%;
+    height: 180px;
+    color: white;
+    background-color: #1A1A1A;
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+.perfect .d-flex .box2 i {
+    width: 100%;
+    color: #BAA20D;
+    text-align: right;
+    font-size: 2rem;
+    padding: 2rem 2rem 2rem 0rem;
+}
+.perfect .d-flex .box2 h3 {
+    margin-left: 2rem;
+}
+.perfect .d-flex .box2:nth-child(4) {
+    background-color: #CDB30C;
+    color: black;
+}
