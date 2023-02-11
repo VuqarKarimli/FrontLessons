@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sassy+Frass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.drawing {
+    height: 100vh;
+    background-image: url(../image/pexell.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 4.5rem;
+}
+.drawing .event {
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 4rem;
+    text-align: center;
+    padding: 0rem 2.6rem;
+    font-size: 1.5rem;
+}
+.drawing .event .d-flex {
+    display: flex;
+    justify-content: space-evenly;
+    color: #423F8D;
+    padding: 0rem 4.5rem;
+}
+.drawing .event .d-flex .day {
+    width: 20%;
+    height: 70px;
+    background-color: #FFFAE6;
+    border-radius: 0.5rem;
+}
+button {
+    width: 40%;
+    height: 55px;
+    background-color: #ED078B;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    font-size: 15px;
+}
+.drawing .event h4 , h1 , p , button{
+    margin-bottom: 1.6rem;
+}
+.drawing .event h4 {
+    color: #ED078B;
+    padding-top: 4rem;
+}
+.drawing .event h1, p {
+    color: #423F8D;
+}
+.drawing .event .d-flex .day p {
+    font-size: 15px;
+}
+.quality {
+    height: 100vh;
+    background-image: url(../image/pexelv.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+.quality .child {
+    width: 40%;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 6rem;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+.quality .child h1 {
+    font-size: 80px;
+    color: #423F8D;
+    font-family: 'Nunito', sans-serif;
+}
+.quality .child h3 {
+    font-size: 50px;
+    color: #FBCE0F;
+    margin-bottom: 2rem;
+}
