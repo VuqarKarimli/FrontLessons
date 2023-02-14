@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.fashion .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fashion .d-flex .left {
+    width: 49.5%;
+    height: 100vh;
+    position: relative;
+}
+.fashion .d-flex .right {
+    width: 49.8%;
+    height: 100vh;
+}
+.fashion .d-flex .right .shop {
+    width: 49.2%;
+    height: 49.5vh;
+    position: relative;
+    margin-bottom: 0.6rem;
+}
+hr {
+    width: 72px;
+    height: 0.10rem;
+    background-color: #CA1515;
+    border: none;
+}
+.fashion .text {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.fashion .left , .shop {
+    background-size: cover;
+    background-position: center;
+}
+.fashion p {
+    margin: 0.3rem 0rem 1rem 0rem;
+}
+    
