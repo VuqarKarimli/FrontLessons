@@ -1,0 +1,48 @@
+
+.main {
+    .mbt {
+        margin-bottom: 1.2rem;
+    }
+    label {
+        margin-bottom: 0.6rem;
+    }
+    .container1 {
+        width: 60%;
+        margin: auto;
+        padding: 1rem;
+        background-color: #FFFFFF;
+        .name {
+            width: 31%;
+        }
+        .city {
+            width: 48%;
+        }
+    }
+    color: #224285;
+    .text {
+        width: 100%;
+        height: 40px;
+        border-radius: 0.2rem;
+        border: 1px solid #CCCCCC;
+        background-color: #FAFAFA;
+    }
+    .radio {
+        width: 15px;
+        height: 15px;
+    }
+    textarea {
+        border-radius: 0.2rem;
+        border: 1px solid #CCCCCC;
+    }
+    .btn {
+        text-align: center;
+        button {
+            width: 15%;
+            height: 30px;
+            border: none;
+            background-color: #224285;
+            color: white;
+            box-shadow: 6px 8px #7F7F7F;
+        }
+    }
+}
