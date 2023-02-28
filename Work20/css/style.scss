@@ -1,0 +1,48 @@
+.services {
+    height: 100vh;
+    .mtb {
+        margin: 1rem 0rem;
+    }
+    .mt {
+        margin-top: 0.6rem;
+    }
+    .mb {
+        margin-bottom: 1.5rem;
+    }
+    .head {
+        margin: auto;
+        text-align: center;
+    }
+    h5 {
+        color: #FFC444;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.1rem;
+        padding-top: 7rem;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    p {
+        color: #AAA7A8;
+        line-height: 1.4rem;
+    }
+    .line {
+            width: 5%;
+            height: 2px;
+            background-color: #DDDDDD;
+            margin: auto;
+    }
+    .icon {
+        width: 70%;
+        height: 62px;
+        border-radius: 0.4rem;
+        border: 1px solid #FFC446;
+        padding: 20px;
+        transform: rotate(45deg);
+        i {
+            color: #FFC446;
+            font-size: 20px;
+            transform: rotate(-45deg);
+        }
+    }
+}
