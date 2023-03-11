@@ -1,0 +1,112 @@
+.project {
+    height: 100vh;
+    background-color: #FAFAFA;
+    .container {
+        height: 100vh;
+        .left {
+            color: #20484F;
+            position: relative;
+            h4 {
+                padding-top: 5rem;
+            }
+            h1 {
+                font-size: 3.5rem;
+                margin: 0.8rem 0rem;
+                font-family: 'Roboto', sans-serif;
+            }
+            p {
+                margin-bottom: 1rem;
+            }
+            .btn1 {
+                width: 45%;
+                height: 40px;
+                background-color: #20484F;
+                border: none;
+                border-radius: 0.3rem;
+            }
+            .btn2 {
+                width: 45%;
+                height: 40px;
+                background-color: white;
+                color: #20484F;
+                border: none;
+                border-radius: 0.3rem;
+            }
+        }
+        .right1 {
+            position: relative;
+        .right {
+            width: 65%;
+            height: 350px;
+            border-radius: 0.5rem;
+            background-image: url(../img/moose.jpg);
+            background-position: center;
+            background-size: cover;
+            margin: auto;
+            position: relative;
+            color: #20484F;
+            .up {
+                width: 90%;
+                height: 80px;
+                border-radius: 0.5rem;
+                background-color: white;
+                padding: 1rem;
+                position: absolute;
+                top: 4%;
+                right: -25%;
+                img {
+                    width: 70%;
+                    height: 50px;
+                    border-radius: 70%;
+                    border: 2px solid #B8E4DA;
+                    padding: 0.1rem;
+                    object-fit: cover;
+                }
+                h3 {
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+            .down {
+                width: 100%;
+                height: 130px;
+                background-color: white;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                position: relative;
+                position: absolute;
+                top: 76%;
+                left: -17%;
+                i {
+                    background-color: #DCF2ED;
+                    color: black;
+                    padding: 0.8rem;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 15%;
+                    margin-left: 0.7rem;
+                }
+                p {
+                    height: 10px;
+                    background-color: #E9EDED;
+                    border-radius: 0.5rem;
+                    margin-top: 0.5rem;
+                }
+                button {
+                    width: 40%;
+                    height: 30px;
+                    background-color: #B8E4DA;
+                    border: none;
+                    border-radius: 0.3rem;
+                    margin-top: 1rem;
+                }
+            }
+        }      
+    }  
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .up, .down {
+        position: static !important;
+    }
+}
