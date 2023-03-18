@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.rows {
+    height: 100vh;
+    align-content: center;
+    font-family: 'Lilita One', cursive;
+}
+.left {
+    background-image: url(../img/post-01.jpg.webp);
+    height: 76vh;
+}
+.right {
+    background-image: url(../img/post-02.jpg.webp);
+    height: 38vh;
+}
+.right1 {
+    background-image: url(../img/post-03.jpg.webp);
+    height: 38vh;
+}
+.right2 {
+    background-image: url(../img/post-04.jpg.webp);
+    height: 38vh;
+}
+.left, .right, .right1, .right2 {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+.left:hover, .right:hover, .right1:hover, .right2:hover {
+    opacity: 0.9;
+}
+.btc {
+    color: white;
+    .business {
+        display: inline-block;
+        border: 1px solid white;
+        padding: 0px 7px;
+        a {
+            color: white;
+        }
+    }
+    .business:hover {
+        color: white;
+        border: none;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        color: rgb(50, 182, 78);
+    }
+}
